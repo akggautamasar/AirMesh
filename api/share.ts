@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { createShare } from '../server/shareStore';
+import { createShare } from '../server/shareStore.js';
 
 // Node.js is the default runtime for /api functions (unless this exported
 // config sets `runtime: 'edge'`), so no config export is needed here — the
